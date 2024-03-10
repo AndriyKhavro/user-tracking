@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelService", "PixelService.csproj", "{BE3B2F85-483C-4817-88F5-36DEDF7D32EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D073C60C-0A3B-4F7B-90DB-E7F592AB87A3}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\docker-compose.yml = ..\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageService", "..\StorageService\StorageService.csproj", "{0476137C-3FDD-451F-B8EA-A86BD48DD556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelService.UnitTests", "..\PixelService.UnitTests\PixelService.UnitTests.csproj", "{3CEA5D3B-D5C3-44C4-AA8E-13B027E0FD83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageService.UnitTests", "..\StorageService.UnitTests\StorageService.UnitTests.csproj", "{B4CFABA0-C5AA-4F0D-8A9C-8196ECAE954D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE3B2F85-483C-4817-88F5-36DEDF7D32EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3B2F85-483C-4817-88F5-36DEDF7D32EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3B2F85-483C-4817-88F5-36DEDF7D32EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3B2F85-483C-4817-88F5-36DEDF7D32EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0476137C-3FDD-451F-B8EA-A86BD48DD556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0476137C-3FDD-451F-B8EA-A86BD48DD556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0476137C-3FDD-451F-B8EA-A86BD48DD556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0476137C-3FDD-451F-B8EA-A86BD48DD556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CEA5D3B-D5C3-44C4-AA8E-13B027E0FD83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CEA5D3B-D5C3-44C4-AA8E-13B027E0FD83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CEA5D3B-D5C3-44C4-AA8E-13B027E0FD83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CEA5D3B-D5C3-44C4-AA8E-13B027E0FD83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4CFABA0-C5AA-4F0D-8A9C-8196ECAE954D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CFABA0-C5AA-4F0D-8A9C-8196ECAE954D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CFABA0-C5AA-4F0D-8A9C-8196ECAE954D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CFABA0-C5AA-4F0D-8A9C-8196ECAE954D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41559CCA-0B9C-4700-8FEB-D3CC17C41150}
+	EndGlobalSection
+EndGlobal
